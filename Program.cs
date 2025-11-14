@@ -99,19 +99,19 @@ namespace StudentCoursesSystem
         {
             var teachers = new List<Teacher>
             {
-                new Teacher { TeacherId = 1, Name = "Dr. Smith" },
-                new Teacher { TeacherId = 2, Name = "Prof. Johnson" },
-                new Teacher { TeacherId = 3, Name = "Dr. Williams" },
-                new Teacher { TeacherId = 4, Name = "Prof. Brown" }
+                new Teacher { TeacherId = 1, Name = "Dr. Ahmed" },
+                new Teacher { TeacherId = 2, Name = "Prof. Mohamed" },
+                new Teacher { TeacherId = 3, Name = "Dr. Zeyad" },
+                new Teacher { TeacherId = 4, Name = "Prof. Youssef" }
             };
 
             var students = new List<Student>
             {
-                new Student { StudentId = 1, Name = "Alice" },
-                new Student { StudentId = 2, Name = "Bob" },
-                new Student { StudentId = 3, Name = "Charlie" },
+                new Student { StudentId = 1, Name = "Rehab" },
+                new Student { StudentId = 2, Name = "Sarah" },
+                new Student { StudentId = 3, Name = "Rana" },
                 new Student { StudentId = 4, Name = "David" },
-                new Student { StudentId = 5, Name = "Eve" }
+                new Student { StudentId = 5, Name = "Ola" }
             };
 
             var courses = new List<Course>
